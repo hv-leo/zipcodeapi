@@ -9,7 +9,7 @@ This is a Web API, that uses zipcodelib, to provide a Rest interface to validate
 ```
 git clone https://github.com/hv-leo/zipcodelib
 pip install -r requirements.txt
-python main.py
+python -m uvicorn main:app --reload
 ```
 
 ### Run the Tests
